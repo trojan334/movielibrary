@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+//Zawiera metody operujące na bazie danych
 @Repository
 public class MovieRepository {
     @Autowired

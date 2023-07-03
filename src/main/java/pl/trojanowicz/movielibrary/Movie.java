@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+//Reprezentuje obiekt movie
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
