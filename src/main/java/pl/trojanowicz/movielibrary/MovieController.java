@@ -26,4 +26,9 @@ public class MovieController {
     public Movie getById(@PathVariable int id){
         return movieRepository.getById(id);
     }
+
+    @PostMapping("/")
+    public int add(@RequestBody List<Movie> movies){
+        return movieRepository.save(movies);
+    }
 }
