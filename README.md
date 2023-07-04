@@ -1,0 +1,1 @@
+Prosta aplikacja CRUD dla utrwalenia wiedzy.

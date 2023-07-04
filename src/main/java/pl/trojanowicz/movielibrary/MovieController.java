@@ -27,6 +27,7 @@ public class MovieController {
         return movieRepository.getById(id);
     }
 
+    //Requestbody - spring musi wiedziec ze dostanie jsona?
     @PostMapping("/")
     public int add(@RequestBody List<Movie> movies){
         return movieRepository.save(movies);
