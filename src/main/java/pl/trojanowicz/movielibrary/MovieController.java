@@ -15,10 +15,6 @@ public class MovieController {
     @Autowired
     MovieRepository movieRepository;
 
-    @GetMapping("/test")
-    public int test() {
-        return 1;
-    }
 
     @GetMapping("/movies")
     public List<Movie> getAll() {
